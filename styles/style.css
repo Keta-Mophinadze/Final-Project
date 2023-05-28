@@ -271,7 +271,12 @@
     transition: 0.40s;
     cursor: pointer;
 }
+.yoga-session:hover {
+    box-shadow: 0 0 30px 2px #ccc;
+ }    
+
 .beginner-yoga {
+
     background-image: url(../images/beginner-yoga.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -382,9 +387,10 @@
     font-size: 16px;
     line-height: 24px;
     color: #556987;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
 }
+
 
 
 
