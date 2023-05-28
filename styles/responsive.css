@@ -18,8 +18,12 @@
     }
     .section02-title p {
         width: 90%;
-       
     }
+    .yoga-session-wrapper {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    
+    }
+
 
 
 
@@ -45,6 +49,10 @@
     }
     .left-side-block {
         margin: 0 auto;
+    }
+    .paragraph {
+        text-align: center;
+        width: 80%;
     }
     
 

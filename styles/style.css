@@ -139,7 +139,7 @@
 .section02-container {
     max-width: 1440px;
     width: 100%;
-    margin: 130px auto 0 auto;
+    margin: 130px auto;
 }
 .section02-title {
     text-align: center;
@@ -179,7 +179,7 @@
     padding-left: 25px;
     cursor: pointer;
     transition: all 0.30s;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 .yoga-style:nth-child(1) {
     background-image: url(../images/meditation.jpg);
@@ -252,3 +252,143 @@
 
 
 /* SECOND SECTION */
+
+
+/* THIRD SECTION */
+.yoga-session-wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 80px;
+    padding: 0 40px;
+}
+.yoga-session {
+    /* max-width: 400px; */
+    width: 100%;
+    transition: 0.40s;
+    cursor: pointer;
+}
+.beginner-yoga {
+    background-image: url(../images/beginner-yoga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 210px 0 0 15px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+
+}
+
+.morning-yoga {
+    background-image: url(../images/morning-yoga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 210px 0 0 15px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    
+}
+.vinyasa-flow {
+    border-radius: 10px;
+    background-image: url(../images/vinyasa-flow.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 210px 0 0 15px;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+}
+.stretch {
+    background-image: url(../images/stretch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 10px;
+    padding: 210px 0 0 15px;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+
+}
+.ashtanga-yoga {
+    border-radius: 10px;
+    padding: 210px 0 0 15px;
+    background-image: url(../images/ashtanga.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+
+}
+.mind-body {
+    border-radius: 10px;
+    padding: 210px 0 0 15px;
+    background-image: url(../images/mind-body.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+
+}
+
+.morning-yoga {
+    width: 100%;
+    border-radius: 15px;
+}
+.duration {
+    width: 60px;
+    height: 25px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    opacity: 0.7;
+    
+}
+.block-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2A3342;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+.paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #556987;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* THIRD SECTION */
