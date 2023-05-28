@@ -1,0 +1,254 @@
+.poppins {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* HEADER */
+.header {
+    padding-bottom: 145px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.yoga-logo {
+    width: 6.875rem;
+}
+.ul-li-item,
+.a-item {
+    width: 34.375rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #556987;
+    cursor: pointer;
+    
+}
+.home:hover,
+.about:hover,
+.blog:hover,
+.shop:hover,
+.contact:hover {
+    border-bottom: 0.125rem solid #556987;
+}
+.login-button {
+    cursor: pointer;
+    border: none;
+    background: #FFFFFF;
+    color: #556987;
+    width: 5.375rem;
+    height: 2.25rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.login-button:hover {
+    border-bottom: 0.125rem solid #556987;
+}
+.header-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* HEADER */
+
+/* FIRST-SECTION */
+.section01-container {
+   max-width: 90rem;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 3.125rem;
+}
+
+.right-side-block {
+    width: 550px;
+}
+.right-side-block h2, h1 {
+    color: #2A3342;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+}
+.right-side-block h1 {
+    font-size: 60px;
+    margin: 10px 0 27px 0;
+}
+.right-side-block p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #556987;
+}
+
+
+
+.left-side-block {
+   width: 700px;
+
+}
+.hand-stand-image {
+    width: 100%;
+    border-radius: 15px;
+}
+.fa-bars {
+    font-size: 22px;
+    color: #556987;
+    display: none;
+}
+.sign-up-button {
+    width: 240px;
+    height: 50px;
+    border: 0.125rem solid #2A3342;
+    color: #2A3342;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: all 0.25s;
+    margin-top: 25px;
+
+}
+.sign-up-button:hover {
+    color: #FFFFFF;
+    background-color: #2A3342;
+}
+.sign-up-button:active {
+    opacity: 0.8;
+}
+
+
+
+/* FIRST-SECTION */
+
+/* SECOND SECTION */
+.section02-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 130px auto 0 auto;
+}
+.section02-title {
+    text-align: center;
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+.section02-title h2 {
+    color: #2A3342;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    letter-spacing: 4px;
+}
+.section02-title p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #556987;
+    margin: 15px auto 65px auto;
+
+}
+.yoga-styles-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 100px;
+}
+.yoga-style {
+    width: 195px;
+    height: 275px;
+    padding-top: 15px;
+    padding-left: 25px;
+    cursor: pointer;
+    transition: all 0.30s;
+    border-radius: 5px;
+}
+.yoga-style:nth-child(1) {
+    background-image: url(../images/meditation.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+.yoga-style:nth-child(2) {
+    background-image: url(../images/ashtanga-yoga.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+.yoga-style:nth-child(3) {
+    background-image: url(../images/hatha.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.yoga-style:nth-child(4) {
+    background-image: url(../images/yin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+
+}
+.yoga-style:nth-child(5) {
+    background-image: url(../images/vinyasa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+
+}
+.yoga-style:nth-child(6) {
+    background-image: url(../images/prenatal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.yoga-style:nth-child(7) {
+    background-image: url(../images/partner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+.yoga-style:nth-child(8) {
+    background-image: url(../images/restorative.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.yoga-style:hover {
+    transform: scale(1.3); 
+}
+.yoga-style h6 {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+/* SECOND SECTION */
