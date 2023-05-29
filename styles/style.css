@@ -2,6 +2,10 @@
     font-family: 'Poppins';
     font-style: normal;
 }
+.roboto {
+    font-family: 'Roboto';
+    font-style: normal;
+}
 .flex {
     display: flex;
     justify-content: space-between;
@@ -37,8 +41,8 @@
 .home:hover,
 .about:hover,
 .blog:hover,
-.shop:hover,
-.contact:hover {
+.classes:hover,
+.membership:hover {
     border-bottom: 0.125rem solid #556987;
 }
 .login-button {
@@ -121,12 +125,14 @@
     cursor: pointer;
     transition: all 0.25s;
     margin-top: 25px;
-
 }
+
 .sign-up-button:hover {
     color: #FFFFFF;
     background-color: #2A3342;
+
 }
+
 .sign-up-button:active {
     opacity: 0.8;
 }
@@ -254,7 +260,108 @@
 /* SECOND SECTION */
 
 
+/* 3 SECTION */
+.section-container {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+.right-side-div {
+    max-width: 700px;
+    width: 100%;
+}
+.low-lunge-pose {
+    width: 100%;
+    border-radius: 10px;
+    /* height: 500px;
+    object-fit: cover; */
+}
+.left-side-div {
+    max-width: 610px;
+    width: 100%;
+    text-align: center;
+}
+.left-side-div h2 {
+    color: #2A3342;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 62px;
+
+}
+.left-side-div p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #556987;
+    margin: 5px 0 30px 0;
+}
+.explore-button {
+    width: 240px;
+    height: 50px;
+    border: 0.125rem solid #2A3342;
+    color: #2A3342;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: all 0.25s;
+
+}
+.explore-button:hover {
+    color: #FFFFFF;
+    background-color: #2A3342;
+
+}
+.explore-button:active {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 3 SECTION */
+
+
 /* THIRD SECTION */
+.yoga-title {
+    max-width: 950px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 45px auto;
+    padding: 0 15px;
+}
+.yoga-title h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 62px;
+    color: #2A3342;
+    letter-spacing: -0.02em;
+    
+    
+}
 .yoga-session-wrapper {
     max-width: 1440px;
     width: 100%;
@@ -276,7 +383,6 @@
  }    
 
 .beginner-yoga {
-
     background-image: url(../images/beginner-yoga.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -287,14 +393,25 @@
     width: 100%;
     height: 250px;
     margin: 0 auto;
-
+}
+.meditation-rest {
+    background-image: url(../images/meditation-rest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 210px 0 0 15px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
 }
 
 .morning-yoga {
     background-image: url(../images/morning-yoga.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
     padding: 210px 0 0 15px;
     border-radius: 10px;
     max-width: 400px;
@@ -319,7 +436,7 @@
     background-image: url(../images/stretch.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: 40% 10%;
     border-radius: 10px;
     padding: 210px 0 0 15px;
     max-width: 400px;
@@ -352,13 +469,69 @@
     width: 100%;
     height: 250px;
     margin: 0 auto;
-
 }
-
-.morning-yoga {
+.restorative {
+    border-radius: 10px;
+    padding: 210px 0 0 15px;
+    background-image: url(../images/restorative-yoga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 400px;
     width: 100%;
-    border-radius: 15px;
+    height: 250px;
+    margin: 0 auto;
 }
+.better-sleep {
+    border-radius: 10px;
+    padding: 210px 0 0 15px;
+    background-image: url(../images/better-sleep.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+}
+.yin-ritual {
+    border-radius: 10px;
+    padding: 210px 0 0 15px;
+    background-image: url(../images/yin-ritual.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 17%;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+}
+.flexibility {
+    border-radius: 10px;
+    padding: 210px 0 0 15px;
+    background-image: url(../images/flexibility.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+}
+.release {
+    border-radius: 10px;
+    padding: 210px 0 0 15px;
+    background-image: url(../images/release.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+
+
 .duration {
     width: 60px;
     height: 25px;
@@ -398,3 +571,98 @@
 
 
 /* THIRD SECTION */
+
+/* FOURTH SECTION */
+.section04-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 100px auto 0 auto;
+    background-image: linear-gradient(0deg, rgb(233, 231, 231), #FFFFFF);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+}
+
+
+.section04-block {
+    text-align: center;
+    max-width: 550px;
+    width: 100%;
+}
+.section04-block h2 {
+    color: #293242;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 62px;
+}
+.section04-block p,
+.price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3c4d66;
+    initial-letter: 3 0;
+    margin: 0 auto;
+}
+.line {
+    height: 220px;
+    border: 1px solid #465a79;
+}
+
+
+/* FOURTH SECTION */
+
+/* COMMUNITY */
+.community-container {
+    background-image: linear-gradient(0deg, rgb(173, 173, 173), rgb(255, 255, 255));
+}
+.community-image {
+    max-width: 1100px;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/group-of-people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+/* COMMUNITY */
+.form-wrapper {
+    max-width: 340px;
+    width: 100%;
+    margin: 0 auto;
+}
+.community-text {
+    background-color: lightgreen;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.form-element {
+   display: flex;
+   flex-direction: column;
+    max-width: 340px;
+    width: 100%;
+    outline: none;
+}
+.label-item {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #424e66;
+}
+.input-item,
+.select-item {
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: #424e66;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+

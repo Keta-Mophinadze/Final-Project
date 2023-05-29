@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoga</title>
+    <link rel="icon" href="images/logo-white.png" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+  </head>
+
+  <body style="height: 3000px;">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-container">
+        <a href="index.html">
+          <img class="yoga-logo" src="images/logo.png" alt="yoga-logo" />
+        </a>
+        <nav>
+          <ul class="ul-li-item flex poppins">
+            <li class="home">
+              <a class="a-item" href="index.html">Home</a>
+            </li>
+            <li class="about">About Us</li>
+            <li class="classes">
+              <a class="a-item" href="classes.html">Class</a>
+            </li>
+            <li class="blog">Blog</li>
+            <li class="community">
+              <a class="a-item" href="community.html">Community</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-elements">
+          <button class="login-button poppins">Log In</button>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- FIRST SECTION -->
+    <div class="community-container">
+
+        <div class="community-image">
+
+        </div>
+
+        <div class="community-text">
+            <h3>Sign Up</h3>
+            <p>Sign up with your social account or create an account with us.</p>
+            <div>Continue With Apple</div>
+            <div>Continue With Facebook</div>
+            <p>OR CREATE AN ACCOUNT</p>
+
+        </div>
+
+        <div class="form-wrapper">
+            <form class="form-element" action="">
+              <label class="roboto label-item" for="myname">First Name</label>
+              <input class="input-item" type="text" name="myname" id="myname">
+              <label class="roboto label-item" for="mylastname">Last Name</label>
+              <input class="input-item" type="text" name="mylastname" id="mylastname">
+              <label class="roboto label-item" for="email">Email</label>
+              <input class="input-item" type="email" name="myemail" id="myemail">
+              <label class="roboto label-item" for="password" required>Password</label>
+              <input class="input-item" type="password" name="mypassword" id="mypassword">
+              <label class="roboto label-item" for="membership-plan">Membership</label>
+              <select class="select-item roboto" name="membership-plan" id="membership-plan">
+                <option value="none" selected disabled hidden>Choose Your Membership Plan</option>
+                <option class="roboto" value="monthly">Monthly</option>
+                <option class="roboto" value="annual">Annual</option>
+              </select>
+            </form>
+          </div>
+
+    </div>

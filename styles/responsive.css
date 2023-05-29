@@ -23,6 +23,12 @@
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     
     }
+    .section-container {
+        flex-direction: column;
+    }
+    .right-side-div {
+        margin-bottom: 40px;
+    }
 
 
 
@@ -72,6 +78,10 @@
     .section02-title h2 {
         font-size: 32px;
     }
+    .left-side-div h2 {
+        font-size: 35px;
+    }
+
 
     
 }
