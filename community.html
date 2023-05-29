@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/fonts.css" />
   </head>
 
-  <body style="height: 3000px;">
+  <body>
     <!-- HEADER -->
     <header class="header">
       <div class="header-container">
@@ -53,24 +53,29 @@
         </div>
 
         <div class="community-text">
-            <h3>Sign Up</h3>
-            <p>Sign up with your social account or create an account with us.</p>
-            <div>Continue With Apple</div>
-            <div>Continue With Facebook</div>
-            <p>OR CREATE AN ACCOUNT</p>
+            <h3 class="roboto">Sign Up</h3>
+            <p class="signup-text roboto">Sign up with your social account or create an account with us.</p>
+            <div class="apple-div"><i class="fa-brands fa-apple"></i>
+                 <span class="roboto">Continue With Apple</span>
+            </div>
+            <div class="fb-div"><i class="fa-brands fa-facebook"></i>
+                <span class="roboto">Continue With Facebook</span> 
+            </div>
+        
+                <p class="roboto account-text">OR CREATE AN ACCOUNT</p>
 
         </div>
 
         <div class="form-wrapper">
             <form class="form-element" action="">
               <label class="roboto label-item" for="myname">First Name</label>
-              <input class="input-item" type="text" name="myname" id="myname">
+              <input class="input-item" type="text" name="myname" id="myname" required>
               <label class="roboto label-item" for="mylastname">Last Name</label>
-              <input class="input-item" type="text" name="mylastname" id="mylastname">
-              <label class="roboto label-item" for="email">Email</label>
-              <input class="input-item" type="email" name="myemail" id="myemail">
-              <label class="roboto label-item" for="password" required>Password</label>
-              <input class="input-item" type="password" name="mypassword" id="mypassword">
+              <input class="input-item" type="text" name="mylastname" id="mylastname" required>
+              <label class="roboto label-item" for="myemail">Email</label>
+              <input class="input-item" type="email" name="myemail" id="myemail" required>
+              <label class="roboto label-item" for="mypassword">Password</label>
+              <input class="input-item" type="password" name="mypassword" id="mypassword" required>
               <label class="roboto label-item" for="membership-plan">Membership</label>
               <select class="select-item roboto" name="membership-plan" id="membership-plan">
                 <option value="none" selected disabled hidden>Choose Your Membership Plan</option>
@@ -78,6 +83,7 @@
                 <option class="roboto" value="annual">Annual</option>
               </select>
             </form>
+            <button class="roboto submit-button" type="submit">Submit</button>
           </div>
 
     </div>

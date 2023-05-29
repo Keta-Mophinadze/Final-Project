@@ -29,6 +29,18 @@
     .right-side-div {
         margin-bottom: 40px;
     }
+    .community-image {
+        height: 500px;
+    }
+    .line {
+        display: none;
+    }
+    .section04-container {
+        flex-direction: column;
+    }
+    .section04-block {
+        margin-bottom: 60px;
+    }
 
 
 
@@ -60,6 +72,10 @@
         text-align: center;
         width: 80%;
     }
+
+    .community-image {
+        height: 400px;
+    }
     
 
 }
@@ -81,11 +97,20 @@
     .left-side-div h2 {
         font-size: 35px;
     }
+    .community-image {
+        height: 300px;
+    }
+    .section04-block h2 {
+        font-size: 32px;
+    }
 
 
     
 }
 
 @media (max-width: 375px) {
+    .community-image {
+        height: 200px;
+    }
     
 }

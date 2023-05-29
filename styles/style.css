@@ -363,6 +363,7 @@
     
 }
 .yoga-session-wrapper {
+    background-image: linear-gradient(0deg, rgb(223, 223, 223), #FFFFFF);
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -616,6 +617,7 @@
 /* COMMUNITY */
 .community-container {
     background-image: linear-gradient(0deg, rgb(173, 173, 173), rgb(255, 255, 255));
+    padding: 0 20px;
 }
 .community-image {
     max-width: 1100px;
@@ -629,16 +631,8 @@
     border-radius: 20px;
 }
 
-
-/* COMMUNITY */
 .form-wrapper {
     max-width: 340px;
-    width: 100%;
-    margin: 0 auto;
-}
-.community-text {
-    background-color: lightgreen;
-    max-width: 600px;
     width: 100%;
     margin: 0 auto;
 }
@@ -651,7 +645,7 @@
 }
 .label-item {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 30px;
     color: #424e66;
 }
@@ -664,5 +658,104 @@
     color: #424e66;
     font-size: 18px;
     margin-bottom: 20px;
+    background-color: #F2F2F2;
 }
+
+.community-text {
+    max-width: 600px;
+    width: 100%;
+    margin: 25px auto 0 auto;
+    text-align: center;
+}
+.community-text h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #343e54;
+}
+.signup-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #343e54;
+    max-width: 340px;
+    width: 100%;
+    margin: 8px auto 17px auto;
+}
+.apple-div,
+.fb-div {
+    max-width: 340px;
+    width: 100%;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #293141;
+    padding: 6px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.fb-div {
+    margin-top: 15px;
+}
+.apple-div:hover,
+.fb-div:hover {
+    background-color: #e6e6e6;
+    
+}
+.fa-apple,
+.fa-facebook {
+    margin-right: 6px;
+    font-size: 18px;
+}
+.account-text {
+    overflow: hidden;
+  text-align: center;
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #343e54;
+    margin: 18px 0;
+
+}
+.account-text:before,
+.account-text:after {
+    background-color: #293141;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 13.2%;
+}
+.account-text:before {
+    right: 10px;
+    margin-left: -50%;
+  }
+  
+  .account-text:after {
+    left: 10px;
+    margin-right: -50%;
+  }
+  .submit-button {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424e66;
+    background-color: #F2F2F2;
+    max-width: 340px;
+    width: 100%;
+    height: 41px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 12px;
+    cursor: pointer;
+
+  }
+  .submit-button:hover {
+    background-color: #e6e6e6;
+  }
+/* COMMUNITY */
+
 
