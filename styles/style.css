@@ -22,7 +22,7 @@
     background-color: #FFFFFF;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 10;
 }
 
 .yoga-logo {
@@ -757,5 +757,130 @@
     background-color: #e6e6e6;
   }
 /* COMMUNITY */
+
+
+/* BLOG */
+.blog-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.blog-articles {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 70px;
+    padding: 0 60px;
+}
+.article-bg {
+    max-width: 370px;
+    width: 100%;
+    height: 300px;
+    border-radius: 7px;
+    background-image: url(../images/blog0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    /* background-position: 50% 80%; */
+}
+.hatha-blog {
+    background-image: url(../images/blog1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.diet-blog {
+    background-image: url(../images/blog7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 30%;
+
+}
+.ashtanga-blog {
+    background-image: url(../images/blog2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+.kundalini-blog {
+    background-image: url(../images/blog3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.yin-blog {
+    background-image: url(../images/blog4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 25%;
+
+}
+.meditation-blog {
+    background-image: url(../images/blog5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+
+}
+.mind-blog {
+    background-image: url(../images/blog6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 10%;
+
+
+}
+.playlist-blog {
+    background-image: url(../images/blog8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 10%;
+
+}
+
+.article-p {
+    display: none;
+}
+.article:hover .article-p {
+    display: block;
+    
+
+}
+.article:hover {
+    transform: scale(1.1);
+    z-index: 1; 
+}
+.article {
+    max-width: 370px;
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.40s;
+    position: relative;
+    background-color: #FFFFFF;
+    
+}
+.article-title h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #2e374b;
+    margin: 9px 0 12px 0;
+}
+.article-p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #343e54;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+/* BLOG */
 
 

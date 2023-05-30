@@ -41,6 +41,9 @@
     .section04-block {
         margin-bottom: 60px;
     }
+    .blog-articles {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    }
 
 
 
@@ -77,6 +80,9 @@
         height: 400px;
     }
     
+    .blog-articles {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+    }
 
 }
 
@@ -103,6 +109,15 @@
     .section04-block h2 {
         font-size: 32px;
     }
+    .blog-articles {
+        padding: 0;
+    
+    }
+    .article {
+        width: 270px;
+
+    }
+    
 
 
     
