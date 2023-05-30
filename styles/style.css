@@ -101,11 +101,18 @@
 
 .left-side-block {
    width: 700px;
+   border-radius: 15px;
+   cursor: pointer;
+
+}
+.left-side-block:hover {
+    box-shadow: 0 0 6px 1px #ccc;
 
 }
 .hand-stand-image {
     width: 100%;
     border-radius: 15px;
+    display: block;
 }
 .fa-bars {
     font-size: 22px;
@@ -113,19 +120,21 @@
     display: none;
 }
 .sign-up-button {
-    width: 240px;
+    width: 260px;
     height: 50px;
     border: 0.125rem solid #2A3342;
-    color: #2A3342;
-    background-color: #FFFFFF;
+
     border-radius: 6px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
     cursor: pointer;
     transition: all 0.25s;
     margin-top: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2A3342;
+    background-color: #FFFFFF;
 }
+
 
 .sign-up-button:hover {
     color: #FFFFFF;
@@ -346,6 +355,9 @@
 
 
 /* THIRD SECTION */
+
+
+/* CLASS */
 .yoga-title {
     max-width: 950px;
     width: 100%;
@@ -355,10 +367,9 @@
 }
 .yoga-title h1 {
     font-weight: 700;
-    font-size: 32px;
-    line-height: 62px;
-    color: #2A3342;
-    letter-spacing: -0.02em;
+    font-size: 30px;
+    line-height: 44px;
+    color: #424e66;
     
     
 }
@@ -371,13 +382,14 @@
     grid-template-columns: auto auto auto;
     justify-content: center;
     gap: 80px;
-    padding: 0 40px;
+    padding: 0 40px 55px 40px;
 }
 .yoga-session {
     /* max-width: 400px; */
     width: 100%;
     transition: 0.40s;
     cursor: pointer;
+    border-radius: 10px;
 }
 .yoga-session:hover {
     box-shadow: 0 0 30px 2px #ccc;
@@ -563,6 +575,10 @@
     color: #556987;
     width: 95%;
     margin: 0 auto;
+
+}
+.section03-text {
+    padding-bottom: 15px;
 }
 
 
@@ -760,10 +776,36 @@
 
 
 /* BLOG */
+.blog-title {
+    text-align: center;
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.blog-title h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #424e66;
+
+}
+.blog-title p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #424e66;
+    margin: 15px 0 42px 0;
+
+}
+
 .blog-container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    background-image: linear-gradient(0deg, rgb(223, 223, 223), #FFFFFF);
+    padding-bottom: 240px;
+
 }
 
 .blog-articles {
@@ -774,6 +816,7 @@
     grid-template-columns: auto auto auto;
     gap: 70px;
     padding: 0 60px;
+
 }
 .article-bg {
     max-width: 370px;
@@ -853,15 +896,18 @@
 .article:hover {
     transform: scale(1.1);
     z-index: 1; 
+    border-radius: 10px 10px 0 0;
 }
 .article {
     max-width: 370px;
     width: 100%;
     margin: 0 auto;
     cursor: pointer;
-    transition: all 0.40s;
+    transition: all 0.20s;
     position: relative;
     background-color: #FFFFFF;
+    border-radius: 10px;
+
     
 }
 .article-title h2 {
@@ -879,7 +925,10 @@
     color: #343e54;
     position: absolute;
     background-color: #FFFFFF;
+    padding: 0 15px 10px 15px;
+    border-radius: 0px 0px 10px 10px;
 }
+
 
 /* BLOG */
 

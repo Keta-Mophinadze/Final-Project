@@ -114,8 +114,11 @@
     
     }
     .article {
-        width: 270px;
+        width: 310px;
 
+    }
+    .blog-container {
+        padding-bottom: 340px;
     }
     
 
@@ -127,5 +130,15 @@
     .community-image {
         height: 200px;
     }
+    .blog-articles {
+        gap: 130px;
+    }
+    .article {
+        width: 260px;
+
+    }
+    
+  
+
     
 }
