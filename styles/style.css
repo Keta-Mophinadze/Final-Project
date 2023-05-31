@@ -11,6 +11,10 @@
     justify-content: space-between;
     align-items: center;
 }
+.body-bg {
+    background-image: linear-gradient(0deg, rgb(233, 231, 231), #FFFFFF);
+
+}
 /* HEADER */
 .header {
     padding-bottom: 145px;
@@ -20,9 +24,10 @@
     justify-content: space-around;
     align-items: center;
     background-color: #FFFFFF;
-    position: fixed;
     width: 100%;
     z-index: 10;
+    position: relative;
+    position: fixed;
 }
 
 .yoga-logo {
@@ -42,7 +47,7 @@
 .about:hover,
 .blog:hover,
 .classes:hover,
-.membership:hover {
+.community:hover {
     border-bottom: 0.125rem solid #556987;
 }
 .login-button {
@@ -60,10 +65,15 @@
     border-bottom: 0.125rem solid #556987;
 }
 .header-elements {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    cursor: pointer;
 }
+
 
 
 /* HEADER */
@@ -314,7 +324,7 @@
     height: 50px;
     border: 0.125rem solid #2A3342;
     color: #2A3342;
-    background-color: #FFFFFF;
+    background-color: #efefef;
     border-radius: 6px;
     font-weight: 500;
     font-size: 18px;
@@ -324,7 +334,7 @@
 
 }
 .explore-button:hover {
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #2A3342;
 
 }
@@ -374,7 +384,6 @@
     
 }
 .yoga-session-wrapper {
-    background-image: linear-gradient(0deg, rgb(223, 223, 223), #FFFFFF);
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -594,7 +603,6 @@
     max-width: 1440px;
     width: 100%;
     margin: 100px auto 0 auto;
-    background-image: linear-gradient(0deg, rgb(233, 231, 231), #FFFFFF);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -631,8 +639,12 @@
 /* FOURTH SECTION */
 
 /* COMMUNITY */
+.background {
+    background-image: linear-gradient(0deg, rgb(187, 187, 187), rgb(255, 255, 255));
+
+
+}
 .community-container {
-    background-image: linear-gradient(0deg, rgb(173, 173, 173), rgb(255, 255, 255));
     padding: 0 20px;
 }
 .community-image {
@@ -776,6 +788,7 @@
 
 
 /* BLOG */
+
 .blog-title {
     text-align: center;
     max-width: 950px;
@@ -803,7 +816,6 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    background-image: linear-gradient(0deg, rgb(223, 223, 223), #FFFFFF);
     padding-bottom: 240px;
 
 }
@@ -931,5 +943,135 @@
 
 
 /* BLOG */
+
+
+/* About Us */
+
+.aboutus-title {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 110px;
+}
+.aboutus-title h1 {
+    color: #2A3342;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 58px;
+    margin-bottom: 5px;
+
+}
+.aboutus-title p {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 30px;
+    color: #3c4d66;
+
+}
+
+
+.aboutus-wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+
+}
+.aboutus-block {
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutus-left-side {
+    max-width: 300px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/IMG-20221201-WA0003.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+.info {
+    text-align: center;
+    margin-top: 418px;
+    color: #FFFFFF;
+    background-color: #2A3342;
+    opacity: 0.8;
+}
+.info h6 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 7px;
+}
+.info p {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.aboutus-right-side {
+    max-width: 650px;
+    width: 100%;
+  
+}
+.aboutus-right-title h2 {
+    color: #2A3342;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    margin-bottom: 5px;
+}
+.aboutus-right-side p {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 30px;
+    color: #3c4d66;
+
+}
+
+.info-details {
+    margin-top: 12px;
+    max-width: 290px;
+    width: 100%;
+}
+.info-details span {
+    font-size: 16px;
+    line-height: 30px;
+    color: #3c4d66;
+
+}
+.fa-location-dot {
+    margin-right: 5px;
+    color: #2A3342;
+}
+.icon {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.spotify-icon,
+.insta-icon {
+    color: #2A3342;
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+/* About Us */
+
+
 
 

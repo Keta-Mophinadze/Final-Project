@@ -16,19 +16,21 @@
     <link rel="stylesheet" href="styles/fonts.css" />
   </head>
 
-  <body>
+  <body class="body-bg">
     <!-- HEADER -->
     <header class="header">
       <div class="header-container">
         <a href="index.html">
           <img class="yoga-logo" src="images/logo.png" alt="yoga-logo" />
         </a>
-        <nav>
+        <nav class="navigation" id="navBar">
           <ul class="ul-li-item flex poppins">
             <li class="home">
               <a class="a-item" href="index.html">Home</a>
             </li>
-            <li class="about">About Us</li>
+            <li class="about">
+              <a class="a-item" href="aboutus.html">About Us</a>
+          </li>
             <li class="classes">
               <a class="a-item" href="classes.html">Class</a>
             </li>
@@ -40,9 +42,13 @@
             </li>
           </ul>
         </nav>
-        <div class="header-elements">
-          <button class="login-button poppins">Log In</button>
+
+        <div class="header-elements" id="burgerBar">
           <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="login-button">
+          <button class="login-button poppins">Log In</button>
         </div>
       </div>
     </header>
@@ -63,7 +69,9 @@
               lifestyle videos, and articles.
             </p>
             <a href="community.html">
-              <button class="sign-up-button poppins">Start Your Free Trial</button>
+              <button class="sign-up-button poppins">
+                Start Your Free Trial
+              </button>
             </a>
           </div>
 
@@ -183,5 +191,10 @@
       </section>
     </main>
     <!-- Fourth Section -->
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+    <!-- JS -->
   </body>
 </html>

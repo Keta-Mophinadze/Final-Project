@@ -16,19 +16,21 @@
     <link rel="stylesheet" href="styles/fonts.css" />
   </head>
 
-  <body>
+  <body class="background">
     <!-- HEADER -->
     <header class="header">
       <div class="header-container">
         <a href="index.html">
           <img class="yoga-logo" src="images/logo.png" alt="yoga-logo" />
         </a>
-        <nav>
+        <nav class="navigation" id="navBar">
           <ul class="ul-li-item flex poppins">
             <li class="home">
               <a class="a-item" href="index.html">Home</a>
             </li>
-            <li class="about">About Us</li>
+            <li class="about">
+              <a class="a-item" href="aboutus.html">About Us</a>
+          </li>
             <li class="classes">
               <a class="a-item" href="classes.html">Class</a>
             </li>
@@ -40,52 +42,90 @@
             </li>
           </ul>
         </nav>
-        <div class="header-elements">
-          <button class="login-button poppins">Log In</button>
+
+        <div class="header-elements" id="burgerBar">
           <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="login-button">
+          <button class="login-button poppins">Log In</button>
         </div>
       </div>
     </header>
 
     <!-- FIRST SECTION -->
     <div class="community-container">
+      <div class="community-image"></div>
 
-        <div class="community-image">
-
+      <div class="community-text">
+        <h3 class="roboto">Sign Up</h3>
+        <p class="signup-text roboto">
+          Sign up with your social account or create an account with us.
+        </p>
+        <div class="apple-div">
+          <i class="fa-brands fa-apple"></i>
+          <span class="roboto">Continue With Apple</span>
+        </div>
+        <div class="fb-div">
+          <i class="fa-brands fa-facebook"></i>
+          <span class="roboto">Continue With Facebook</span>
         </div>
 
-        <div class="community-text">
-            <h3 class="roboto">Sign Up</h3>
-            <p class="signup-text roboto">Sign up with your social account or create an account with us.</p>
-            <div class="apple-div"><i class="fa-brands fa-apple"></i>
-                 <span class="roboto">Continue With Apple</span>
-            </div>
-            <div class="fb-div"><i class="fa-brands fa-facebook"></i>
-                <span class="roboto">Continue With Facebook</span> 
-            </div>
-        
-                <p class="roboto account-text">OR CREATE AN ACCOUNT</p>
+        <p class="roboto account-text">OR CREATE AN ACCOUNT</p>
+      </div>
 
-        </div>
-
-        <div class="form-wrapper">
-            <form class="form-element" action="">
-              <label class="roboto label-item" for="myname">First Name</label>
-              <input class="input-item" type="text" name="myname" id="myname" required>
-              <label class="roboto label-item" for="mylastname">Last Name</label>
-              <input class="input-item" type="text" name="mylastname" id="mylastname" required>
-              <label class="roboto label-item" for="myemail">Email</label>
-              <input class="input-item" type="email" name="myemail" id="myemail" required>
-              <label class="roboto label-item" for="mypassword">Password</label>
-              <input class="input-item" type="password" name="mypassword" id="mypassword" required>
-              <label class="roboto label-item" for="membership-plan">Membership</label>
-              <select class="select-item roboto" name="membership-plan" id="membership-plan">
-                <option value="none" selected disabled hidden>Choose Your Membership Plan</option>
-                <option class="roboto" value="monthly">Monthly</option>
-                <option class="roboto" value="annual">Annual</option>
-              </select>
-            </form>
-            <button class="roboto submit-button" type="submit">Submit</button>
-          </div>
-
+      <div class="form-wrapper">
+        <form class="form-element" action="">
+          <label class="roboto label-item" for="myname">First Name</label>
+          <input
+            class="input-item"
+            type="text"
+            name="myname"
+            id="myname"
+            required
+          />
+          <label class="roboto label-item" for="mylastname">Last Name</label>
+          <input
+            class="input-item"
+            type="text"
+            name="mylastname"
+            id="mylastname"
+            required
+          />
+          <label class="roboto label-item" for="myemail">Email</label>
+          <input
+            class="input-item"
+            type="email"
+            name="myemail"
+            id="myemail"
+            required
+          />
+          <label class="roboto label-item" for="mypassword">Password</label>
+          <input
+            class="input-item"
+            type="password"
+            name="mypassword"
+            id="mypassword"
+            required
+          />
+          <label class="roboto label-item" for="membership-plan"
+            >Membership</label
+          >
+          <select
+            class="select-item roboto"
+            name="membership-plan"
+            id="membership-plan"
+          >
+            <option value="none" selected disabled hidden>
+              Choose Your Membership Plan
+            </option>
+            <option class="roboto" value="monthly">Monthly</option>
+            <option class="roboto" value="annual">Annual</option>
+          </select>
+        </form>
+        <button class="roboto submit-button" type="submit">Submit</button>
+      </div>
     </div>
+    <script src="script.js"></script>
+  </body>
+</html>
