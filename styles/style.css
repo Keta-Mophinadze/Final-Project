@@ -985,17 +985,41 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 70px;
 }
 .aboutus-left-side {
     max-width: 300px;
     width: 100%;
     height: 500px;
-    background-image: url(../images/IMG-20221201-WA0003.jpg);
+    background-image: url(../images/keta.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 5px;
+
 }
+.aboutus-left-erin {
+    max-width: 300px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/erin.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+.aboutus-left-kayoko {
+    max-width: 300px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/kayoko.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 75% 50%;
+    border-radius: 5px;
+
+}
+
 .info {
     text-align: center;
     margin-top: 418px;
@@ -1071,6 +1095,147 @@
 
 
 /* About Us */
+
+
+/* FOOTER */
+.footer-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-logo-yoga {
+    width: 230px;
+
+}
+.footer-logo {
+    margin: 0 auto 30px auto;
+    width: 250px;
+}
+.footer-line {
+    border: 1px solid #70819b;
+    margin: 30px 0;
+}
+.footer-icon {
+    background-color: #d2d2d2;
+    color: #424e66;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.footer-left-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info-block {
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+}
+.footer-contact-info {
+    display: flex;
+    flex-direction: column;
+}
+.footer-contact-info span,
+.a-item-footer {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #424e66;
+
+}
+.a-item-footer {
+    color: #556987;
+
+}
+.subscribe h6 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #424e66;
+
+}
+.subscribe p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #556987;
+}
+.footer-email-input {
+    border: none;
+    outline: none;
+    width: 220px;
+    height: 32px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #556987;
+    padding-left: 15px;
+}
+.subscribe-button {
+    width: 150px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #556987;
+    border-radius: 5px;
+    border: 1px solid #556987 ;
+    background-color: #f3f3f3;
+    cursor: pointer;
+    margin-left: 8px;
+
+
+}
+.subscribe-button:hover {
+    background-color: #556987;
+    color: #f3f3f3;
+
+}
+.form-footer-block {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.divider {
+    border-left: 1px solid #3c475e;
+  height: 15px;
+  margin: 0 13px;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.copyright p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #3c475e;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
 
 
 
