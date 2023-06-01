@@ -52,6 +52,12 @@
         text-align: center;
         margin: 15px 0 8px 0;
     }
+    .footer-left-side {
+        flex-wrap: wrap;
+        
+        gap: 35px;
+
+    }
 
     
 
@@ -114,6 +120,11 @@
     .login-button:hover {
         border-bottom: none;
     }
+    .footer-left-side {
+        padding: 0 80px;
+    
+
+    }
 
 }
 
@@ -151,6 +162,21 @@
     .blog-container {
         padding-bottom: 340px;
     }
+    .form-footer-block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .subscribe-button {
+        margin: 10px 0 0 0;
+    
+    }
+    .copyright {
+        padding: 0 25px;
+    }
+    .divider {
+        height: 60px;
+    }
+
     
 
 
