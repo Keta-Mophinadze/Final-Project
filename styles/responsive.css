@@ -58,6 +58,9 @@
         gap: 35px;
 
     }
+    .aboutus-background-image {
+        height: 550px;
+    }
 
     
 
@@ -125,6 +128,9 @@
     
 
     }
+    .aboutus-background-image {
+        height: 450px;
+    }
 
 }
 
@@ -176,7 +182,15 @@
     .divider {
         height: 60px;
     }
-
+    .aboutus-background-image {
+        height: 300px;
+    }
+    .aboutus-text h2 {
+        font-size: 22px;
+    }
+    .mind-blog {
+        background-position: 80% 10%;
+    }
     
 
 
@@ -192,8 +206,17 @@
     }
     .article {
         width: 260px;
-
     }
+    .aboutus-background-image {
+        height: 220px;
+    }
+    .aboutus-title h1 {
+        font-size: 26px;
+    }
+    .aboutus-title p {
+        font-size: 17px;
+    }
+   
 
     
   

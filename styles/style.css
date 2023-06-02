@@ -11,7 +11,7 @@
 }
 /* HEADER */
 .header {
-    padding-bottom: 80px;
+    padding-bottom: 5rem;
 }
 .header-container {
     display: flex;
@@ -21,7 +21,6 @@
     width: 100%;
     z-index: 10;
     position: relative;
-    /* position: fixed; */
 }
 .yoga-logo {
     width: 6.875rem;
@@ -105,7 +104,6 @@
    width: 100%;
    border-radius: 0.938rem;
    cursor: pointer;
-
 }
 .left-side-block:hover {
     box-shadow: 0 0 6px 1px #ccc;
@@ -253,7 +251,6 @@
 }
 /* SECOND SECTION */
 
-
 /* THIRD SECTION */
 .section-container {
     max-width: 90rem;
@@ -325,8 +322,8 @@
     font-size: 1.875rem;
     line-height: 2.75rem;
     color: #424e66;
-    
-    
+    width: 90%;
+    margin: 0 auto;
 }
 .yoga-session-wrapper {
     max-width: 90rem;
@@ -335,30 +332,28 @@
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    gap: 80px;
-    padding: 0 40px;
+    gap: 5rem;
+    padding: 0 2.5rem;
 }
 .yoga-session {
-    /* max-width: 400px; */
     width: 100%;
     transition: 0.40s;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 .yoga-session:hover {
     box-shadow: 0 0 30px 2px #ccc;
- }    
-
+}    
 .beginner-yoga {
     background-image: url(../images/beginner-yoga.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    padding: 210px 0 0 15px;
-    border-radius: 10px;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
 }
 .meditation-rest {
@@ -366,37 +361,35 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    padding: 210px 0 0 15px;
-    border-radius: 10px;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
 }
-
 .morning-yoga {
     background-image: url(../images/morning-yoga.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    padding: 210px 0 0 15px;
-    border-radius: 10px;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
-    
 }
 .vinyasa-flow {
-    border-radius: 10px;
     background-image: url(../images/vinyasa-flow.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 210px 0 0 15px;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
 }
 .stretch {
@@ -404,293 +397,269 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 40% 10%;
-    border-radius: 10px;
-    padding: 210px 0 0 15px;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
 
 }
 .ashtanga-yoga {
-    border-radius: 10px;
-    padding: 210px 0 0 15px;
     background-image: url(../images/ashtanga.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
-
 }
 .mind-body {
-    border-radius: 10px;
-    padding: 210px 0 0 15px;
     background-image: url(../images/mind-body.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
 }
 .restorative {
-    border-radius: 10px;
-    padding: 210px 0 0 15px;
     background-image: url(../images/restorative-yoga.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
 }
 .better-sleep {
-    border-radius: 10px;
-    padding: 210px 0 0 15px;
     background-image: url(../images/better-sleep.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
 }
 .yin-ritual {
-    border-radius: 10px;
-    padding: 210px 0 0 15px;
     background-image: url(../images/yin-ritual.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 17%;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
 }
 .flexibility {
-    border-radius: 10px;
-    padding: 210px 0 0 15px;
     background-image: url(../images/flexibility.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
 }
 .release {
-    border-radius: 10px;
-    padding: 210px 0 0 15px;
     background-image: url(../images/release.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 400px;
+    padding: 13.125rem 0 0 0.938rem;
+    border-radius: 0.625rem;
+    max-width: 25rem;
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 auto;
 }
-
-
-
 .duration {
-    width: 60px;
-    height: 25px;
+    width: 3.75rem;
+    height: 1.563rem;
     background-color: #000000;
     color: #FFFFFF;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 24px;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 3px;
+    border-radius: 0.188rem;
     opacity: 0.7;
-    
 }
 .block-title {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color: #2A3342;
     text-align: center;
-    margin: 15px 0 15px 0;
+    margin: 0.938rem 0;
 }
 .paragraph {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: #556987;
     width: 95%;
     margin: 0 auto;
-
 }
 .section03-text {
-    padding-bottom: 15px;
+    padding-bottom: 0.938rem;
 }
-
-
-
-
-
-
-
-/* THIRD SECTION */
+/* CLASS */
 
 /* FOURTH SECTION */
 .section04-container {
-    max-width: 1440px;
+    max-width: 90rem;
     width: 100%;
-    margin: 100px auto 0 auto;
+    margin: 6.25rem auto 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 70px;
+    padding: 4.375rem;
 }
-
-
 .section04-block {
     text-align: center;
-    max-width: 550px;
+    max-width: 34.375rem;
     width: 100%;
 }
 .section04-block h2 {
     color: #293242;
     font-weight: 700;
-    font-size: 42px;
-    line-height: 62px;
+    font-size: 2.625rem;
+    line-height: 3.875rem;
 }
 .section04-block p,
 .price {
     font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
     color: #3c4d66;
-    initial-letter: 3 0;
     margin: 0 auto;
 }
 .line {
-    height: 220px;
+    height: 13.75rem;
     border: 1px solid #465a79;
 }
-
-
 /* FOURTH SECTION */
 
 /* COMMUNITY */
 .background {
     background-image: linear-gradient(0deg, rgb(187, 187, 187), rgb(255, 255, 255));
-
-
 }
 .community-container {
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 .community-image {
-    max-width: 1100px;
+    max-width: 68.75rem;
     width: 100%;
-    height: 600px;
+    height: 37.5rem;
     background-image: url(../images/group-of-people.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
-
 .form-wrapper {
-    max-width: 340px;
+    max-width: 21.25rem;
     width: 100%;
     margin: 0 auto;
 }
 .form-element {
    display: flex;
    flex-direction: column;
-    max-width: 340px;
+    max-width: 21.25rem;
     width: 100%;
     outline: none;
 }
 .label-item {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 1.875rem;
     color: #424e66;
 }
 .input-item,
 .select-item {
-    height: 40px;
+    height: 2.5rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     outline: none;
     color: #424e66;
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
     background-color: #F2F2F2;
 }
-
 .community-text {
-    max-width: 600px;
+    max-width: 37.5rem;
     width: 100%;
-    margin: 25px auto 0 auto;
+    margin: 1.563rem auto 0 auto;
     text-align: center;
 }
 .community-text h3 {
     font-weight: 700;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
     color: #343e54;
 }
 .signup-text {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
     color: #343e54;
-    max-width: 340px;
+    max-width: 21.25rem;
     width: 100%;
-    margin: 8px auto 17px auto;
+    margin: 0.5rem auto 1.063rem auto;
 }
 .apple-div,
 .fb-div {
-    max-width: 340px;
+    max-width: 21.25rem;
     width: 100%;
     background-color: #F2F2F2;
     margin: 0 auto;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.625rem;
     color: #293141;
-    padding: 6px 0;
-    border-radius: 4px;
+    padding: 0.375rem 0;
+    border-radius: 0.25rem;
     cursor: pointer;
 }
 .fb-div {
-    margin-top: 15px;
+    margin-top: 0.938rem;
 }
 .apple-div:hover,
 .fb-div:hover {
     background-color: #e6e6e6;
-    
 }
 .fa-apple,
 .fa-facebook {
-    margin-right: 6px;
-    font-size: 18px;
+    margin-right: 0.375rem;
+    font-size: 1.125rem;
 }
 .account-text {
     overflow: hidden;
-  text-align: center;
-  font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     color: #343e54;
-    margin: 18px 0;
-
+    margin: 1.125rem 0;
 }
 .account-text:before,
 .account-text:after {
@@ -703,385 +672,379 @@
     width: 13.2%;
 }
 .account-text:before {
-    right: 10px;
+    right: 0.625rem;
     margin-left: -50%;
-  }
-  
-  .account-text:after {
-    left: 10px;
+}
+.account-text:after {
+    left: 0.625rem;
     margin-right: -50%;
-  }
-  .submit-button {
+}
+.submit-button {
     font-weight: 900;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
     color: #424e66;
     background-color: #F2F2F2;
-    max-width: 340px;
+    max-width: 21.25rem;
     width: 100%;
-    height: 41px;
+    height: 2.563rem;
     border: none;
-    border-radius: 4px;
-    margin-top: 12px;
+    border-radius: 0.25rem;
+    margin-top: 0.75rem;
     cursor: pointer;
-
-  }
-  .submit-button:hover {
+}
+.submit-button:hover {
     background-color: #e6e6e6;
-  }
+}
 /* COMMUNITY */
 
 
 /* BLOG */
-
 .blog-title {
     text-align: center;
-    max-width: 950px;
+    max-width: 59.375rem;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 .blog-title h2 {
     font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
     color: #424e66;
-
 }
 .blog-title p {
     font-weight: 700;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 1.25rem;
+    line-height: 2rem;
     color: #424e66;
-    margin: 15px 0 42px 0;
-
+    margin: 0.938rem 0 2.625rem 0;
 }
-
 .blog-container {
-    max-width: 1440px;
+    max-width: 90rem;
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 115px;
-
+    padding-bottom: 7.188rem;
 }
-
 .blog-articles {
-    max-width: 1440px;
+    max-width: 90rem;
     width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 70px;
-    padding: 0 60px;
-
+    gap: 4.375rem;
+    padding: 0 3.75rem;
 }
 .article-bg {
-    max-width: 370px;
+    max-width: 23.125rem;
     width: 100%;
-    height: 300px;
-    border-radius: 7px;
+    height: 18.75rem;
+    border-radius: 0.438rem;
     background-image: url(../images/blog0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 20%;
-    /* background-position: 50% 80%; */
 }
 .hatha-blog {
     background-image: url(../images/blog1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .diet-blog {
     background-image: url(../images/blog7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 30%;
-
 }
 .ashtanga-blog {
     background-image: url(../images/blog2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-
 }
 .kundalini-blog {
     background-image: url(../images/blog3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .yin-blog {
     background-image: url(../images/blog4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 25%;
-
 }
 .meditation-blog {
     background-image: url(../images/blog5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 20%;
-
 }
 .mind-blog {
     background-image: url(../images/blog6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60% 10%;
-
-
 }
 .playlist-blog {
     background-image: url(../images/blog8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 10%;
-
 }
-
 .article-p {
     display: none;
 }
 .article:hover .article-p {
     display: block;
-    
-
 }
 .article:hover {
     transform: scale(1.1);
     z-index: 1; 
-    border-radius: 10px 10px 0 0;
+    border-radius: 0.625rem 0.625rem 0 0;
 }
 .article {
-    max-width: 370px;
+    max-width: 23.125rem;
     width: 100%;
     margin: 0 auto;
     cursor: pointer;
     transition: all 0.20s;
     position: relative;
     background-color: #FFFFFF;
-    border-radius: 10px;
-
-    
+    border-radius: 0.625rem; 
 }
 .article-title h2 {
     text-align: center;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
     color: #2e374b;
-    margin: 9px 0 12px 0;
+    margin: 0.563rem 0 0.75rem 0;
 }
 .article-p {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.625rem;
     color: #343e54;
     position: absolute;
     background-color: #FFFFFF;
-    padding: 0 15px 10px 15px;
-    border-radius: 0px 0px 10px 10px;
+    padding: 0 0.938rem 0.625rem 0.938rem;
+    border-radius: 0px 0px 0.625rem 0.625rem;
 }
-
-
 /* BLOG */
 
-
-/* About Us */
-
+/* ABOUT US */
 .aboutus-title {
-    max-width: 1100px;
+    max-width: 68.75rem;
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 110px;
+    margin-bottom: 6.875rem;
 }
 .aboutus-title h1 {
     color: #2A3342;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 58px;
-    margin-bottom: 5px;
-
+    font-size: 1.875rem;
+    line-height: 3.625rem;
+    margin-bottom: 0.313rem;
 }
 .aboutus-title p {
     font-weight: 500;
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 1.188rem;
+    line-height: 1.875rem;
     color: #3c4d66;
-
+    width: 90%;
+    margin: 0 auto;
 }
-
-
 .aboutus-wrapper {
-    max-width: 1440px;
+    max-width: 90rem;
     width: 100%;
     margin: 0 auto;
-    padding: 0 30px;
-
+    padding: 0 1.875rem;
 }
 .aboutus-block {
-    max-width: 1050px;
+    max-width: 65.625rem;
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
 }
 .aboutus-left-side {
-    max-width: 300px;
+    max-width: 18.75rem;
     width: 100%;
-    height: 500px;
+    height: 31.25rem;
     background-image: url(../images/keta.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 5px;
-
+    border-radius: 0.313rem;
 }
 .aboutus-left-erin {
-    max-width: 300px;
+    max-width: 18.75rem;
     width: 100%;
-    height: 500px;
+    height: 31.25rem;
     background-image: url(../images/erin.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 5px;
-
+    border-radius: 0.313rem;
 }
 .aboutus-left-kayoko {
-    max-width: 300px;
+    max-width: 18.75rem;
     width: 100%;
-    height: 500px;
+    height: 31.25rem;
     background-image: url(../images/kayoko.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 75% 50%;
-    border-radius: 5px;
-
+    border-radius: 0.313rem;
 }
-
 .info {
     text-align: center;
-    margin-top: 418px;
+    margin-top: 26.125rem;
     color: #FFFFFF;
     background-color: #2A3342;
     opacity: 0.8;
 }
 .info h6 {
     font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    margin-bottom: 7px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 0.438rem;
 }
 .info p {
     font-weight: 500;
-    font-size: 17px;
-    line-height: 28px;
+    font-size: 1.063rem;
+    line-height: 1.75rem;
 }
-
 .aboutus-right-side {
-    max-width: 650px;
+    max-width: 40.625rem;
     width: 100%;
-  
 }
 .aboutus-right-title h2 {
     color: #2A3342;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 48px;
-    margin-bottom: 5px;
+    font-size: 1.375rem;
+    line-height: 3rem;
+    margin-bottom: 0.313rem;
 }
 .aboutus-right-side p {
     font-weight: 500;
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 1.188rem;
+    line-height: 1.875rem;
     color: #3c4d66;
-
 }
-
 .info-details {
-    margin-top: 12px;
-    max-width: 290px;
+    margin-top: 0.75rem;
+    max-width: 18.125rem;
     width: 100%;
 }
 .info-details span {
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 1.875rem;
     color: #3c4d66;
-
 }
 .fa-location-dot {
-    margin-right: 5px;
+    margin-right: 0.313rem;
     color: #2A3342;
 }
 .icon {
-    width: 60px;
+    width: 3.75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
-
+    margin-top: 0.938rem;
 }
 .spotify-icon,
 .insta-icon {
     color: #2A3342;
-    font-size: 19px;
+    font-size: 1.188rem;
 }
+.aboutus-section-container {
+    max-width: 90rem;
+    width: 100%;
+    margin: 7.5rem auto 0 auto;
+    padding: 0 1.875rem;
+}
+.aboutus-background-image {
+    background-image: url(../images/community.jpg);
+    max-width: 62.5rem;
+    width: 100%;
+    height: 37.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+.aboutus-text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.625rem;
+    line-height: 2.625rem;
+    color: #2e374b;
+}
+.aboutus-text h2 {
+    margin: 1.25rem 0 0.5rem 0;
+}
+.aboutus-signup {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    width: 7.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    color: #556987;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+.aboutus-signup:hover a {
+    background-color: #556987;
+    color: #f7f7f7;
+}
+.aboutus-signup:hover {
+    background-color: #556987;
 
-
-
-
-
-
-
-/* About Us */
-
+}
+/* ABOUT US */
 
 /* FOOTER */
 .footer-container {
-    max-width: 1200px;
+    max-width: 75rem;
     width: 100%;
-    margin: 100px auto 0 auto;
+    margin: 6.25rem auto 0 auto;
 }
 .footer-logo-yoga {
-    width: 230px;
-
+    width: 14.375rem;
 }
 .footer-logo {
-    margin: 0 auto 30px auto;
-    width: 250px;
+    margin: 0 auto 1.875rem auto;
+    width: 15.625rem;
 }
 .footer-line {
-    border: 1px solid #70819b;
-    margin: 30px 0;
+    border: 0.063rem solid #70819b;
+    margin: 1.875rem 0;
 }
 .footer-icon {
     background-color: #d2d2d2;
     color: #424e66;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 1.375rem;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 .footer-left-side {
-    /* max-width: 1000px;
-    width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 1.875rem;
 }
 .contact-info-block {
-    max-width: 250px;
+    max-width: 15.625rem;
     display: flex;
     align-items: center;
 }
@@ -1092,85 +1055,73 @@
 .footer-contact-info span,
 .a-item-footer {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 1.875rem;
     color: #424e66;
-
 }
 .a-item-footer {
     color: #556987;
-
 }
 .subscribe h6 {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color: #424e66;
-
 }
 .subscribe p {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 1.875rem;
     color: #556987;
 }
 .footer-email-input {
     border: none;
     outline: none;
-    width: 220px;
-    height: 32px;
-    border-radius: 5px;
+    width: 13.75rem;
+    height: 2rem;
+    border-radius: 0.313rem;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
     color: #556987;
-    padding-left: 15px;
+    padding-left: 0.938rem;
 }
 .subscribe-button {
-    width: 150px;
-    height: 32px;
+    width: 9.375rem;
+    height: 2rem;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 1.875rem;
     color: #556987;
-    border-radius: 5px;
-    border: 1px solid #556987 ;
+    border-radius: 0.313rem;
+    border: none;
     background-color: #f3f3f3;
     cursor: pointer;
-    margin-left: 8px;
-
-
+    margin-left: 0.5rem;
 }
 .subscribe-button:hover {
     background-color: #556987;
     color: #f3f3f3;
-
 }
 .form-footer-block {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 .divider {
-    border-left: 1px solid #3c475e;
-  height: 15px;
-  margin: 0 13px;
+    border-left: 0.063rem solid #3c475e;
+    height: 0.938rem;
+    margin: 0 0.813rem;
 }
 .copyright {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 .copyright p {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 1.875rem;
     color: #3c475e;
-
 }
 /* FOOTER */
-
-
-
-
