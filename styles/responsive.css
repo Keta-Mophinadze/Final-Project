@@ -1,88 +1,85 @@
 @media (max-width: 1024px) {
-    /* 1 section */
     .section01-container {
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
     .right-side-block {
         width: 90%;
         text-align: center;
-        margin: 40px auto 0 auto;
-        /* margin-top: 40px; */
+        margin: 2.5rem auto 0 auto;
     }
     .section01-container {
-        padding: 0 20px;
+        padding: 0 1.25rem;
     }
     .yoga-styles-wrapper {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
-        justify-content: center;
+        -webkit-box-pack: center;  
+            -ms-flex-pack: center;  
+                justify-content: center;
     }
     .section02-title p {
         width: 90%;
     }
     .yoga-session-wrapper {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-    
     }
     .section-container {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .right-side-div {
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
     .community-image {
-        height: 500px;
+        height: 31.25rem;
     }
     .line {
         display: none;
     }
     .section04-container {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .section04-block {
-        margin-bottom: 60px;
+        margin-bottom: 3.75rem;
     }
     .blog-articles {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     }
     .aboutus-block {
-        flex-direction: column;
-    
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     } 
     .aboutus-right-title {
         text-align: center;
-        margin: 15px 0 8px 0;
+        margin: 0.938rem 0 0.5rem 0;
     }
     .footer-left-side {
-        flex-wrap: wrap;
-        
-        gap: 35px;
-
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        gap: 2.188rem;
     }
     .aboutus-background-image {
-        height: 550px;
-    }
-
-    
-
-
-
-
-
-    /* 1 section */
-    
+        height: 34.375rem;
+    } 
 }
 
 
 @media (max-width: 768px) {
-    /* .section01-container {
-        padding: 0 20px;
-    } */
     .left-side-block {
         width: 98%;
     }
     .fa-bars {
         display: inline-block;
-        margin-left: 30px;
+        margin-left: 1.875rem;
     }
     .left-side-block {
         margin: 0 auto;
@@ -91,11 +88,9 @@
         text-align: center;
         width: 80%;
     }
-
     .community-image {
-        height: 400px;
+        height: 25rem;
     }
-    
     .blog-articles {
         grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
     }
@@ -106,120 +101,121 @@
         display: block;
     }
     .header-container {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
     .ul-li-item {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-left: 30px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        margin-left: 1.875rem;
     }
     .login-button {
-        margin-left: 5px;
-        
+        margin-left: 0.313rem; 
     }
     .login-button:hover {
         border-bottom: none;
     }
     .footer-left-side {
-        padding: 0 80px;
-    
-
+        padding: 0 5rem;
     }
     .aboutus-background-image {
-        height: 450px;
+        height: 28.125rem;
     }
-
 }
-
 
 @media (max-width: 480px) {
     .right-side-block h2 {
-        font-size: 32px;
+        font-size: 2rem;
     }
     .right-side-block h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     .fa-bars {
-        margin-left: 12px;
+        margin-left: 0.75rem;
     }
     .section02-title h2 {
-        font-size: 32px;
+        font-size: 2rem;
     }
     .left-side-div h2 {
-        font-size: 35px;
+        font-size: 2.188rem;
     }
     .community-image {
-        height: 300px;
+        height: 18.75rem;
     }
     .section04-block h2 {
-        font-size: 32px;
+        font-size: 2rem;
     }
     .blog-articles {
         padding: 0;
-    
     }
     .article {
-        width: 310px;
-
+        width: 19.375rem;
     }
     .blog-container {
-        padding-bottom: 340px;
+        padding-bottom: 21.25rem;
     }
     .form-footer-block {
-        flex-direction: column;
-        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
     .subscribe-button {
-        margin: 10px 0 0 0;
-    
+        margin: 0.625rem 0 0 0;
     }
     .copyright {
-        padding: 0 25px;
+        padding: 0 1.563rem;
     }
     .divider {
-        height: 60px;
+        height: 3.75rem;
     }
     .aboutus-background-image {
-        height: 300px;
+        height: 18.75rem;
     }
     .aboutus-text h2 {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
     .mind-blog {
         background-position: 80% 10%;
     }
-    
-
-
-    
 }
 
 @media (max-width: 375px) {
     .community-image {
-        height: 200px;
+        height: 12.5rem;
     }
     .blog-articles {
-        gap: 130px;
+        gap: 8.125rem;
     }
     .article {
-        width: 260px;
+        width: 16.25rem;
     }
     .aboutus-background-image {
-        height: 220px;
+        height: 13.75rem;
     }
     .aboutus-title h1 {
-        font-size: 26px;
+        font-size: 1.625rem;
     }
     .aboutus-title p {
-        font-size: 17px;
+        font-size: 1.063rem;
     }
-   
-
-    
-  
-
-    
 }
