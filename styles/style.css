@@ -1080,12 +1080,9 @@
     background-color: #f9f9f9;
     cursor: pointer;
 }
-.aboutus-signup:hover a {
-    background-color: #556987;
-    color: #f7f7f7;
-}
 .aboutus-signup:hover {
     background-color: #556987;
+    color: #f7f7f7;
 
 }
 /* ABOUT US */
