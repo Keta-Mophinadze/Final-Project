@@ -635,6 +635,25 @@
     margin: 0 auto;
     border-radius: 1.25rem;
 }
+.join-us-text {
+    text-align: center;
+    margin: 2.188rem auto 2.813rem auto;
+}
+.join-us-text h2 {
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    color: #343e54;
+    margin-bottom: 0.5rem;
+}
+.join-us-text p {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    color: #343e54;
+    width: 70%;
+    margin: 0 auto;
+}
 .form-wrapper {
     max-width: 21.25rem;
     width: 100%;

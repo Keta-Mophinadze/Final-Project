@@ -137,6 +137,9 @@
     .aboutus-background-image {
         height: 28.125rem;
     }
+    .join-us-text p {
+        width: 90%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -184,9 +187,6 @@
     }
     .copyright {
         padding: 0 1.563rem;
-    }
-    .divider {
-        height: 3.75rem;
     }
     .aboutus-background-image {
         height: 18.75rem;
